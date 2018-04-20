@@ -1,0 +1,7 @@
+---
+applications:
+  - name: postgresql-service-broker
+#    buildpack: java_buildpack
+    env:
+      MASTER_JDBC_URL: jdbc:postgresql://192.168.6.172:5432/postgres?user=postgres&password=123
+      JAVA_OPTS: -Dsecurity.user.password=mysecret

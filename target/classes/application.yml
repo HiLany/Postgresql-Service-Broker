@@ -1,0 +1,2 @@
+security.user.password: password
+MASTER_JDBC_URL: jdbc:postgresql://192.168.6.172:5432/postgres?user=postgres&password=123
